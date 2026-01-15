@@ -52,7 +52,3 @@ python -m code.train_and_evaluate --data_path path/to/your_dataset.csv --text_co
 Your CSV should contain:
 - a text column (e.g., `text`)
 - a label column with values like `phishing/spam` vs `ham/legitimate` (binary)
-
-## Notes
-- This project is intended as a clean, understandable baseline for academic submission.
-- If your labels are not already binary, the script will attempt to map them automatically.
